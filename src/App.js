@@ -25,6 +25,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className="display-1">Lista de tareas</h1>
       <TodoForm addTodo = {addTodo}/>
       <TodoList todos = {todos} onComplete = {onComplete} onDeleteItem = {onDeleteItem}/>
     </div>

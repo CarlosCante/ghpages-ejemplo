@@ -3,7 +3,7 @@ import TodoItem from './TodoItem';
 
 function TodoList({todos, onComplete, onDeleteItem}) {
   return (
-    <div>
+    <div className="card-columns">
       {
         todos.map((todo, index) => (
             <TodoItem key={`todo-${index}`} todo = {todo} onComplete = {onComplete} onDeleteItem = {onDeleteItem}/>
