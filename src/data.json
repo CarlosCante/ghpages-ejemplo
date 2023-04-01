@@ -11,8 +11,8 @@
     },
     {
         "id": 3,
-        "task": "Limipiar el cuarto.",
-        "completed": false
+        "task": "Limpiar el cuarto.",
+        "completed": true
     },
     {
         "id": 4,
